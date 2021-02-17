@@ -219,7 +219,7 @@ upstreams:
         - 500
         - 503
         tcp_failures: 10
-        timeouts: 10
+        timeouts: 15
     threshold: 0
   hash_on: none
   hash_fallback: none
